@@ -29,21 +29,21 @@ This is a simple Flask application that allows users to view, add, and get detai
    cd your_repository_name
    
 
-=> 2)Create and activate a virtual environment:
+2.Create and activate a virtual environment:
     python -m venv venv
     venv\Scripts\activate  # On Windows
     source venv/bin/activate  # On macOS/Linux
 
-=> 3)Install the dependencies:
+3.Install the dependencies:
     pip install -r requirements.txt
 
-=> 4)Set up the MySQL database and create a .env file with your database credentials:
+4.Set up the MySQL database and create a .env file with your database credentials:
     DB_HOST=localhost
     DB_USER=your_mysql_username
     DB_PASSWORD=your_mysql_password
     DB_NAME=your_database_name
 
-=>5)Run the Flask application:
+5.Run the Flask application:
     flask run
 
 
