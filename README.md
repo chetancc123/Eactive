@@ -1,6 +1,6 @@
 # Eactive
 => 1) Flask Application
-**My code is in steptech_assignment branch.So please click branch and go to steptech_assignment branch for the code
+**My code is in steptech_assignment branch.So please click branch and go to steptech_assignment branch for the code 
 
 This is a simple Flask application that allows users to view, add, and get details of users from a MySQL database.
 
