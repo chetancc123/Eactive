@@ -78,11 +78,14 @@ Git Workflow
 
 1.Initialize a new Git repository:
     git init
+    
 2.Create a branch named steptech_assignment:
     git checkout -b steptech_assignment
+    
 3.Make necessary commits as you implement the Flask API and database functionality:
     git add .
     git commit -m "Initial commit with Flask app, templates, and static files"
+    
 4.Push your branch to a remote Git repository:
     git remote add origin https://github.com/your_username/your_repository_name.git
     git push -u origin steptech_assignment
@@ -91,13 +94,17 @@ Git Workflow
 ##How to Contribute
 
 1.Fork the repository.
+
 2.Create a new branch for your feature or bugfix:
     git checkout -b feature_name
+    
 3.Make your changes and commit them with a descriptive message:
     git add .
     git commit -m "Add new feature"
+    
 4.Push your branch to your forked repository:
     git push origin feature_name
+    
 5.Open a pull request on the main repository, describing your changes and why they should be merged.
 
 
