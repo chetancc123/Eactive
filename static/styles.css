@@ -1,62 +1,95 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* static/styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li, table, th, td {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1, h2, h3 {
-    text-align: center;
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Button styles */
 a.button, input[type="submit"] {
     display: block;
     width: 200px;
     padding: 10px;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 a.button:hover, input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
+/* Form styling */
 form {
-    width: 300px;
-    margin: 0 auto;
+    max-width: 500px;
+    margin: 20px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
 }
 
-div {
+form div {
     margin-bottom: 15px;
 }
 
-label {
+form label {
     display: block;
     margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-select {
+form input[type="text"],
+form input[type="email"],
+form select {
     width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
+/* Table styling */
 table {
-    width: 70%;
+    width: 100%;
     border-collapse: collapse;
-    margin: 20px auto;
+    margin: 20px 0;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -74,21 +107,45 @@ th {
     background-color: #f2f2f2;
 }
 
-.container {
-    text-align: center;
-    margin: 20px;
-}
-
+/* Link styles */
 a {
-    color: #4CAF50;
+    color: #007BFF;
 }
 
 a:hover {
-    color: #0e4611;
+    color: #0056b3;
 }
 
+/* Footer back link */
 .back-link {
     display: block;
     text-align: center;
     margin-top: 20px;
+}
+
+/* Home page buttons */
+.home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
 }
