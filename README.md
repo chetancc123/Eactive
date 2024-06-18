@@ -45,9 +45,11 @@ This is a simple Flask application that allows users to view, add, and get detai
 
 5.Run the Flask application:
     flask run
+    
 
 
-##Database Schema
+### Database Schema
+
 The users table has the following columns:
 
 id (int, primary key)
@@ -56,6 +58,7 @@ email (varchar)
 role (varchar)
 
 SQL to Create the Table
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
@@ -64,8 +67,10 @@ CREATE TABLE users (
 );
 
 
-##Dependencies
+### Dependencies
+
 The application requires the following Python packages:
+
 
 Flask
 Flask-MySQLdb
@@ -73,7 +78,9 @@ python-dotenv
 You can install these dependencies using the provided requirements.txt file.
 
 
-##Git Workflow and Contribution
+###Git Workflow and Contribution
+
+
 Git Workflow
 
 1.Initialize a new Git repository:
@@ -91,7 +98,7 @@ Git Workflow
     git push -u origin steptech_assignment
 
 
-##How to Contribute
+### How to Contribute
 
 1.Fork the repository.
 
